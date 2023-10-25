@@ -40,7 +40,6 @@ a {
 .product {
   flex-direction: column;
   display: flex;
-  border: 1px solid red;
 }
 .mainpragah {
   display: flex;
