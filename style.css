@@ -37,6 +37,11 @@ a {
   color: rgb(138, 135, 135);
   text-decoration: none;
 }
+.product {
+  flex-direction: column;
+  display: flex;
+  border: 1px solid red;
+}
 .mainpragah {
   display: flex;
   flex-direction: row;
@@ -59,14 +64,15 @@ a {
 }
 button {
   background-color: #3882fa;
-  border-radius: 20%;
-  padding: 5px;
+  border-radius: 10px;
+  border: #f9faf8 solid;
   color: #f9faf8;
-  border-color: #3882fa;
+  padding: 5px;
   transition-duration: 0.4s;
 }
 button:hover {
-  background-color: rgb(140, 140, 170);
+  background-color: rgb(188, 188, 191);
+  border: rgb(202, 202, 204) solid;
 }
 .main2 {
   display: flex;
@@ -86,7 +92,7 @@ button:hover {
 }
 .place1 {
   display: flex;
-  border: 2px solid red;
+  border: 2px solid;
   padding: 70px;
   border-radius: 5%;
   border-color: #3882fa;
@@ -94,7 +100,7 @@ button:hover {
 }
 .place2 {
   display: flex;
-  border: 2px solid red;
+  border: 2px solid;
   padding: 70px;
   border-radius: 5%;
   border-color: #3882fa;
@@ -102,7 +108,7 @@ button:hover {
 }
 .place3 {
   display: flex;
-  border: 2px solid red;
+  border: 2px solid;
   padding: 70px;
   border-radius: 5%;
   border-color: #3882fa;
@@ -110,7 +116,7 @@ button:hover {
 }
 .place4 {
   display: flex;
-  border: 2px solid red;
+  border: 2px solid;
   padding: 70px;
   border-radius: 5%;
   border-color: #3882fa;
@@ -143,11 +149,13 @@ button:hover {
 }
 .callaction {
   background-color: #3882fa;
-  border-radius: 5%;
+  display: flex;
+  border-radius: 12px;
   color: #e5e7eb;
   margin: 100px;
   padding: 50px;
   padding-right: 600px;
+  justify-content: space-around;
 }
 #calla {
   font-size: 25px;
