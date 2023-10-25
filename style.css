@@ -152,7 +152,8 @@ button:hover {
   color: #e5e7eb;
   margin: 100px;
   padding: 50px;
-  padding-right: 600px;
+  width: 45%;
+  justify-content: space-between;
 }
 #calla {
   font-size: 25px;
