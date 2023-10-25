@@ -10,7 +10,6 @@ header {
   display: flex;
   align-items: center;
   align-self: center;
-
   width: 100%;
   justify-content: space-around;
   margin-bottom: 50px;
@@ -154,7 +153,6 @@ button:hover {
   margin: 100px;
   padding: 50px;
   padding-right: 600px;
-  justify-content: space-around;
 }
 #calla {
   font-size: 25px;
@@ -166,4 +164,8 @@ button:hover {
   text-align: center;
   padding: 20px;
   color: white;
+}
+#but {
+  margin-left: 50px;
+  padding: 10px;
 }
